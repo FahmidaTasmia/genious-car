@@ -49,10 +49,10 @@ const Login = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <input className="btn btn-primary" type="submit" value="Login" />
+                            <input className="btn  border-none bg-red-500 hover:bg-red-500" type="submit" value="Login" />
                         </div>
                     </form>
-                    <p className='text-center'>New to Genius Car <Link className='text-orange-600 font-bold' to="/signup">Sign Up</Link> </p>
+                    <p className='text-center'>New to Genius Car <Link className='text-red-500 font-bold' to="/signup">Sign Up</Link> </p>
                 </div>
             </div>
         </div>
