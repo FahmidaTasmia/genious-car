@@ -1,14 +1,15 @@
 import React from 'react';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
-import BannerItem from '../Banner/BannerItem';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <div>
 
             <Banner></Banner>
-            <About>git init</About>
+            <About></About>
+            <Services></Services>
         </div>
     );
 };
